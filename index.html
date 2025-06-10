@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Профессиональные фриланс услуги: веб-разработка, дизайн, копирайтинг, переводы и реставрация фото. Качественные решения для вашего бизнеса">
+    <meta name="keywords" content="фриланс, веб-разработка, дизайн, копирайтинг, переводы, реставрация фото, Грузия">
+    <meta name="author" content="Глеб Кохан">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freelancegeo.com/">
+    <meta property="og:title" content="FREELANCEGEO - Профессиональные фриланс услуги">
+    <meta property="og:description" content="Разработка, дизайн, тексты и переводы - всё в одном месте для вашего успеха">
+    <meta property="og:image" content="https://freelancegeo.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://freelancegeo.com/">
+    <meta property="twitter:title" content="FREELANCEGEO - Профессиональные фриланс услуги">
+    <meta property="twitter:description" content="Разработка, дизайн, тексты и переводы - всё в одном месте для вашего успеха">
+    <meta property="twitter:image" content="https://freelancegeo.com/twitter-image.jpg">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "FREELANCEGEO",
+      "image": "https://freelancegeo.com/logo.png",
+      "@id": "https://freelancegeo.com/",
+      "url": "https://freelancegeo.com/",
+      "telephone": "+995557711543",
+      "email": "glebkoxan36@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Тбилиси",
+        "addressCountry": "GE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.7151,
+        "longitude": 44.8271
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://facebook.com/freelancegeo",
+        "https://instagram.com/freelancegeo"
+      ]
+    }
+    </script>
+    
+    <title>FREELANCEGEO - Профессиональные фриланс услуги | Веб-разработка, дизайн, переводы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1026140990474876" crossorigin="anonymous"></script>
+    <style>
+        :root{--primary:#6c5ce7;--secondary:#a29bfe;--dark:#2d3436;--light:#f7f7f7;--accent:#00cec9;--menu-bg:rgba(15,15,27,0.95)}
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+        body{color:var(--light);overflow-x:hidden;position:relative;min-height:100vh;background:linear-gradient(135deg,#0f0f1b 0%,#1a1a2e 30%,#16213e 70%,#0f3460 100%);background-size:400% 400%;animation:gradientBG 15s ease infinite}
+        @keyframes gradientBG{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+        #particles-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1}
+        header{display:flex;justify-content:space-between;align-items:center;padding:20px 5%;background:var(--menu-bg);position:fixed;top:0;left:0;width:100%;z-index:1000;transition:all 0.4s ease;box-shadow:0 5px 20px rgba(0,0,0,0.2);backdrop-filter:blur(10px);border-bottom:1px solid rgba(108,92,231,0.3)}
+        header.hidden{transform:translateY(-100%)}
+        .logo{font-size:28px;font-weight:700;color:var(--light);display:flex;align-items:center;gap:10px;transition:all 0.3s ease}
+        .logo i{color:var(--accent);animation:rocket 2s infinite alternate}
+        @keyframes rocket{0%{transform:translateY(0)}50%{transform:translateY(-5px)}100%{transform:translateY(0)}}
+        .logo span{color:var(--accent);position:relative}
+        .logo span::after{content:'';position:absolute;bottom:-3px;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:2px;transform:scaleX(0);transition:transform 0.3s ease}
+        .logo:hover span::after{transform:scaleX(1)}
+        nav ul{display:flex;list-style:none}
+        nav ul li{margin:0 8px}
+        nav ul li a{display:flex;align-items:center;gap:10px;color:var(--light);text-decoration:none;font-weight:500;font-size:16px;transition:all 0.3s;position:relative;padding:12px 20px;border-radius:30px;background:transparent;overflow:hidden;z-index:1}
+        nav ul li a::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));z-index:-1;opacity:0;transition:all 0.4s cubic-bezier(0.175,0.885,0.32,1.275);transform:translateX(-100%)}
+        nav ul li a:hover{color:white}
+        nav ul li a:hover::before{opacity:1;transform:translateX(0)}
+        nav ul li a i{font-size:18px;transition:transform 0.3s ease}
+        nav ul li a:hover i{transform:scale(1.2)}
+        .lang-switcher{margin-left:20px;display:flex;gap:8px;background:rgba(45,52,54,0.5);padding:5px;border-radius:30px}
+        .lang-btn{background:transparent;border:none;color:var(--light);cursor:pointer;padding:8px;border-radius:50%;font-weight:500;transition:all 0.3s;width:40px;height:40px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+        .lang-btn::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,var(--primary),var(--accent));opacity:0;transition:opacity 0.3s;z-index:-1}
+        .lang-btn.active::before{opacity:1}
+        .lang-btn i{font-size:20px;transition:transform 0.3s}
+        .lang-btn:hover i{transform:scale(1.2)}
+        .mobile-menu-btn{display:none;background:transparent;border:none;color:var(--light);font-size:24px;cursor:pointer;width:50px;height:50px;border-radius:50%;background:rgba(108,92,231,0.1);transition:all 0.3s}
+        .mobile-menu-btn:hover{background:var(--primary);transform:rotate(90deg)}
+        .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 5%;position:relative}
+        .hero h1{font-size:3.5rem;margin-bottom:20px;line-height:1.2;text-shadow:0 5px 15px rgba(0,0,0,0.3)}
+        .hero p{font-size:1.5rem;max-width:800px;margin-bottom:40px;color:var(--secondary);text-shadow:0 2px 5px rgba(0,0,0,0.2)}
+        .cta-button{display:inline-block;padding:15px 30px;background:var(--primary);color:white;text-decoration:none;border-radius:50px;font-weight:600;margin:10px;transition:all 0.3s;border:2px solid var(--primary);position:relative;overflow:hidden;z-index:1}
+        .cta-button::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,var(--accent),var(--primary));z-index:-1;opacity:0;transition:all 0.4s ease}
+        .cta-button:hover{background:transparent;transform:translateY(-3px);box-shadow:0 10px 20px rgba(108,92,231,0.3)}
+        .cta-button:hover::before{opacity:1}
+        .typewriter-text{display:inline-block;overflow:hidden;border-right:.15em solid var(--primary);white-space:nowrap;letter-spacing:.15em}
+        .services{padding:100px 5%;background:rgba(15,15,27,0.7);position:relative;backdrop-filter:blur(5px);border-radius:20px;margin:20px;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+        .section-title{text-align:center;font-size:2.5rem;margin-bottom:60px;position:relative}
+        .section-title::after{content:'';position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);width:80px;height:4px;background:var(--accent);border-radius:2px}
+        .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin-bottom:60px}
+        .service-card{background:rgba(45,52,54,0.7);border-radius:15px;padding:30px;transition:transform 0.3s,box-shadow 0.3s;position:relative;overflow:hidden;border:1px solid rgba(108,92,231,0.3);backdrop-filter:blur(5px)}
+        .service-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+        .service-card:hover{transform:translateY(-10px);box-shadow:0 15px 30px rgba(0,0,0,0.3)}
+        .service-icon{width:70px;height:70px;background:rgba(108,92,231,0.1);border-radius:50%;display:flex;justify-content:center;align-items:center;margin-bottom:20px}
+        .service-icon i{font-size:30px;color:var(--primary)}
+        .service-card h3{font-size:1.5rem;margin-bottom:15px;color:var(--accent)}
+        .service-card ul{list-style:none}
+        .service-card ul li{padding:8px 0;position:relative;padding-left:20px}
+        .service-card ul li::before{content:'▹';position:absolute;left:0;color:var(--accent)}
+        .portfolio-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;margin-top:40px}
+        .portfolio-item{position:relative;border-radius:10px;overflow:hidden;height:250px;cursor:pointer;transition:transform 0.3s}
+        .portfolio-item:hover{transform:scale(1.03)}
+        .portfolio-img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s}
+        .portfolio-item:hover .portfolio-img{transform:scale(1.1)}
+        .portfolio-overlay{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.7);padding:15px;transform:translateY(100%);transition:transform 0.3s}
+        .portfolio-item:hover .portfolio-overlay{transform:translateY(0)}
+        .portfolio-title{font-size:1.2rem;margin-bottom:5px;color:white}
+        .portfolio-category{font-size:0.9rem;color:var(--accent)}
+        .photo-restoration{position:relative;width:100%;height:400px;overflow:hidden;border-radius:10px;margin:40px 0}
+        .before-after{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,#1a1a2e 50%,#2c2c4e 50%);background-size:200% 100%;animation:restoration 4s infinite alternate}
+        @keyframes restoration{0%{background-position:100% 0}100%{background-position:0 0}}
+        .restoration-label{position:absolute;padding:10px 20px;background:rgba(10,10,20,0.7);color:white;font-weight:bold;border-radius:5px;backdrop-filter:blur(5px)}
+        .before-label{top:20px;left:20px}
+        .after-label{top:20px;right:20px}
+        .about{padding:100px 5%;background:rgba(15,15,27,0.8);position:relative;backdrop-filter:blur(5px);border-radius:20px;margin:20px;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+        .about-content{display:flex;flex-wrap:wrap;gap:50px;align-items:center}
+        .about-text{flex:1;min-width:300px}
+        .about-text h3{font-size:1.8rem;margin-bottom:20px;color:var(--accent)}
+        .about-text p{margin-bottom:20px;line-height:1.6}
+        .contact{padding:100px 5%;background:rgba(15,15,27,0.7);position:relative;backdrop-filter:blur(5px);border-radius:20px;margin:20px;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+        .contact-wrapper{display:flex;flex-wrap:wrap;gap:50px}
+        .contact-info{flex:1;min-width:300px}
+        .contact-form{flex:1;min-width:300px}
+        .contact-item{display:flex;margin-bottom:30px}
+        .contact-icon{width:60px;height:60px;background:rgba(108,92,231,0.1);border-radius:50%;display:flex;justify-content:center;align-items:center;margin-right:20px;flex-shrink:0}
+        .contact-icon i{font-size:24px;color:var(--primary)}
+        .contact-details h3{font-size:1.3rem;margin-bottom:10px;color:var(--accent)}
+        .contact-details p,.contact-details a{color:var(--secondary);text-decoration:none;transition:color 0.3s}
+        .contact-details a:hover{color:var(--accent)}
+        .social-links{display:flex;gap:15px;margin-top:10px}
+        .social-links a{display:flex;justify-content:center;align-items:center;width:40px;height:40px;background:rgba(108,92,231,0.1);border-radius:50%;color:var(--primary);font-size:18px;transition:all 0.3s}
+        .social-links a:hover{background:var(--primary);color:white;transform:translateY(-3px);box-shadow:0 5px 10px rgba(108,92,231,0.3)}
+        .form-group{margin-bottom:20px}
+        .form-group input,.form-group textarea{width:100%;padding:15px;background:rgba(45,52,54,0.7);border:1px solid rgba(108,92,231,0.3);border-radius:8px;color:var(--light);font-size:16px;transition:border-color 0.3s;backdrop-filter:blur(5px)}
+        .form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 10px rgba(108,92,231,0.3)}
+        .form-group textarea{resize:vertical}
+        .ad-container{max-width:1200px;margin:30px auto;padding:20px;background:rgba(15,15,27,0.7);border-radius:10px;text-align:center}
+        footer{padding:30px 5%;background:rgba(10,10,20,0.9);text-align:center;position:relative;backdrop-filter:blur(5px)}
+        .footer-content{max-width:1200px;margin:0 auto}
+        .footer-logo{font-size:24px;font-weight:700;margin-bottom:15px;color:var(--accent)}
+        .copyright{color:var(--secondary);font-size:14px}
+        .animate-on-scroll{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease}
+        .animate-on-scroll.visible{opacity:1;transform:translateY(0)}
+        @media (max-width:992px){
+            nav{position:fixed;top:0;right:-300px;width:300px;height:100vh;background:rgba(15,15,27,0.98);padding:100px 20px 20px;transition:right 0.4s ease;z-index:999;backdrop-filter:blur(10px);box-shadow:-5px 0 20px rgba(0,0,0,0.3)}
+            nav.active{right:0}
+            nav ul{flex-direction:column}
+            nav ul li{margin:10px 0}
+            nav ul li a{justify-content:flex-start;padding:15px 20px;border-radius:10px}
+            .lang-switcher{margin-left:0;margin-top:20px;display:flex;justify-content:center}
+            .mobile-menu-btn{display:flex;justify-content:center;align-items:center;z-index:1001}
+            .hero h1{font-size:2.5rem}
+            .hero p{font-size:1.2rem}
+            .about-content{flex-direction:column}
+            .contact-wrapper{flex-direction:column}
+        }
+        @media (max-width:576px){
+            .hero h1{font-size:2rem}
+            .hero p{font-size:1rem}
+            .section-title{font-size:2rem}
+            .services,.about,.contact{margin:10px}
+        }
+        .flag-svg {
+            width: 24px;
+            height: 16px;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+    <div id="particles-bg"></div>
+    
+    <header id="header">
+        <div class="logo" itemprop="name">
+            <i class="fas fa-rocket"></i>
+            FREELANCE<span>GEO</span>
+        </div>
+        
+        <nav id="nav">
+            <ul>
+                <li><a href="#services"><i class="fas fa-code"></i><span data-i18n="services">Услуги</span></a></li>
+                <li><a href="#portfolio"><i class="fas fa-images"></i><span data-i18n="portfolio">Портфолио</span></a></li>
+                <li><a href="#about"><i class="fas fa-users"></i><span data-i18n="about">О нас</span></a></li>
+                <li><a href="#contact"><i class="fas fa-address-book"></i><span data-i18n="contact">Контакты</span></a></li>
+            </ul>
+            
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="ru" title="Русский">
+                    <div class="flag-svg">
+                        <svg width="24" height="16" viewBox="0 0 120 72" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="120" height="24" y="0" fill="#ffffff" />
+                            <rect width="120" height="24" y="24" fill="#0033a0" />
+                            <rect width="120" height="24" y="48" fill="#d52b1e" />
+                        </svg>
+                    </div>
+                </button>
+                <button class="lang-btn" data-lang="en" title="English">
+                    <div class="flag-svg">
+                        <svg width="24" height="16" viewBox="0 0 247 130" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="247" height="10" y="0" fill="#b22234"/>
+                            <rect width="247" height="10" y="10" fill="#ffffff"/>
+                            <rect width="247" height="10" y="20" fill="#b22234"/>
+                            <rect width="247" height="10" y="30" fill="#ffffff"/>
+                            <rect width="247" height="10" y="40" fill="#b22234"/>
+                            <rect width="247" height="10" y="50" fill="#ffffff"/>
+                            <rect width="247" height="10" y="60" fill="#b22234"/>
+                            <rect width="247" height="10" y="70" fill="#ffffff"/>
+                            <rect width="247" height="10" y="80" fill="#b22234"/>
+                            <rect width="247" height="10" y="90" fill="#ffffff"/>
+                            <rect width="247" height="10" y="100" fill="#b22234"/>
+                            <rect width="247" height="10" y="110" fill="#ffffff"/>
+                            <rect width="247" height="10" y="120" fill="#b22234"/>
+                            <rect width="98.8" height="70" fill="#3c3b6e" />
+                        </svg>
+                    </div>
+                </button>
+                <button class="lang-btn" data-lang="ge" title="ქართული">
+                    <div class="flag-svg">
+                        <svg width="24" height="16" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="60" fill="#ffffff" />
+                            <rect x="45" y="0" width="10" height="60" fill="#ff0000" />
+                            <rect x="0" y="25" width="100" height="10" fill="#ff0000" />
+                            <g fill="#ff0000">
+                                <g transform="translate(15,15)">
+                                    <rect x="-1.5" y="-6" width="3" height="12" />
+                                    <rect x="-6" y="-1.5" width="12" height="3" />
+                                </g>
+                                <g transform="translate(85,15)">
+                                    <rect x="-1.5" y="-6" width="3" height="12" />
+                                    <rect x="-6" y="-1.5" width="12" height="3" />
+                                </g>
+                                <g transform="translate(15,45)">
+                                    <rect x="-1.5" y="-6" width="3" height="12" />
+                                    <rect x="-6" y="-1.5" width="12" height="3" />
+                                </g>
+                                <g transform="translate(85,45)">
+                                    <rect x="-1.5" y="-6" width="3" height="12" />
+                                    <rect x="-6" y="-1.5" width="12" height="3" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </nav>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <section class="hero">
+        <h1 data-i18n="hero_title">Профессиональные <span id="typewriter" class="typewriter-text">фриланс услуги</span></h1>
+        <p id="subtitle" data-i18n="hero_subtitle">Разработка, дизайн, тексты и переводы - всё в одном месте для вашего успеха</p>
+        <div>
+            <a href="#services" class="cta-button animate-on-scroll" data-i18n="our_services">Наши услуги</a>
+            <a href="#contact" class="cta-button animate-on-scroll" data-i18n="contact_us">Связаться с нами</a>
+        </div>
+    </section>
+
+    <div class="ad-container">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1026140990474876" data-ad-slot="9876543210" data-ad-format="auto"></ins>
+    </div>
+
+    <section id="services" class="services">
+        <h2 class="section-title animate-on-scroll" data-i18n="our_services">Наши Услуги</h2>
+        <div class="services-grid">
+            <div class="service-card animate-on-scroll" itemscope itemtype="https://schema.org/Service">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3 itemprop="name" data-i18n="programming">Программирование</h3>
+                <ul>
+                    <li itemprop="description" data-i18n="service1">Создание сайтов-визиток</li>
+                    <li itemprop="description" data-i18n="service2">Одностраничные сайты (Landing Page)</li>
+                    <li itemprop="description" data-i18n="service3">Оптимизация кода</li>
+                    <li itemprop="description" data-i18n="service4">Создание роадмапов для сайтов</li>
+                    <li itemprop="description" data-i18n="service5">Веб-приложения</li>
+                    <li itemprop="description" data-i18n="service6">Техническая поддержка</li>
+                </ul>
+            </div>
+            <div class="service-card animate-on-scroll" itemscope itemtype="https://schema.org/Service">
+                <div class="service-icon"><i class="fas fa-pen"></i></div>
+                <h3 itemprop="name" data-i18n="writing">Написание текстов</h3>
+                <ul>
+                    <li itemprop="description" data-i18n="service7">Копирайтинг</li>
+                    <li itemprop="description" data-i18n="service8">Рерайтинг</li>
+                    <li itemprop="description" data-i18n="service9">SEO оптимизация</li>
+                    <li itemprop="description" data-i18n="service10">Статьи и посты для блогов</li>
+                    <li itemprop="description" data-i18n="service11">Технические тексты</li>
+                    <li itemprop="description" data-i18n="service12">Сценарии и сторителлинг</li>
+                </ul>
+            </div>
+            <div class="service-card animate-on-scroll" itemscope itemtype="https://schema.org/Service">
+                <div class="service-icon"><i class="fas fa-camera"></i></div>
+                <h3 itemprop="name" data-i18n="photo_services">Фото услуги</h3>
+                <ul>
+                    <li itemprop="description" data-i18n="service13">Реставрация старых фото</li>
+                    <li itemprop="description" data-i18n="service14">Черно-белое фото в цвет</li>
+                    <li itemprop="description" data-i18n="service15">Создание баннеров</li>
+                    <li itemprop="description" data-i18n="service16">Дизайн логотипов</li>
+                    <li itemprop="description" data-i18n="service17">Ретушь и коррекция</li>
+                    <li itemprop="description" data-i18n="service18">Коллажи и композиции</li>
+                </ul>
+            </div>
+            <div class="service-card animate-on-scroll" itemscope itemtype="https://schema.org/Service">
+                <div class="service-icon"><i class="fas fa-language"></i></div>
+                <h3 itemprop="name" data-i18n="translations">Переводы текстов</h3>
+                <ul>
+                    <li itemprop="description" data-i18n="service19">Английский ↔ Русский</li>
+                    <li itemprop="description" data-i18n="service20">Английский ↔ Грузинский</li>
+                    <li itemprop="description" data-i18n="service21">Русский ↔ Грузинский</li>
+                    <li itemprop="description" data-i18n="service22">Технические переводы</li>
+                    <li itemprop="description" data-i18n="service23">Литературные переводы</li>
+                    <li itemprop="description" data-i18n="service24">Редактура и корректура</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="photo-restoration animate-on-scroll">
+            <div class="before-after"></div>
+            <div class="restoration-label before-label" data-i18n="before">ДО</div>
+            <div class="restoration-label after-label" data-i18n="after">ПОСЛЕ</div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="services">
+        <h2 class="section-title animate-on-scroll" data-i18n="portfolio">Наше Портфолио</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Веб-дизайн" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project1">Корпоративный сайт</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category1">Веб-разработка</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1567446537736-70b0b8a8b8a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Брендинг" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project2">Фирменный стиль</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category2">Дизайн</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1554080350-7a3b4bd5b7d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Реставрация фото" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project3">Реставрация фото</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category3">Фото услуги</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Дизайн приложения" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project4">Мобильное приложение</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category4">UI/UX Дизайн</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Контент" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project5">Контент-маркетинг</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category5">Копирайтинг</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-on-scroll" itemscope itemtype="https://schema.org/CreativeWork">
+                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Переводы" class="portfolio-img" itemprop="image">
+                <div class="portfolio-overlay">
+                    <h3 class="portfolio-title" itemprop="name" data-i18n="project6">Технический перевод</h3>
+                    <p class="portfolio-category" itemprop="genre" data-i18n="category6">Локализация</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title animate-on-scroll" data-i18n="about_us">О Нас</h2>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll" itemscope itemtype="https://schema.org/AboutPage">
+                <h3 data-i18n="digital_solutions">Мы создаем цифровые решения</h3>
+                <p itemprop="description" data-i18n="about_text1">Наша команда фрилансеров объединяет профессионалов в различных областях: разработчиков, дизайнеров, копирайтеров и переводчиков. Мы работаем вместе, чтобы предоставить нашим клиентам комплексные услуги высшего качества.</p>
+                <p itemprop="description" data-i18n="about_text2">С 2018 года мы реализовали более 200 проектов для клиентов из 15 стран. Наш подход основан на глубоком понимании потребностей клиента и создании индивидуальных решений, которые помогают достигать бизнес-целей.</p>
+                <p itemprop="description" data-i18n="about_text3">Мы постоянно совершенствуем свои навыки, следим за трендами и используем современные технологии в работе. Наша цель - не просто выполнить задачу, а создать продукт, который будет приносить пользу долгие годы.</p>
+                <a href="#contact" class="cta-button" data-i18n="contact_us">Связаться с нами</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title animate-on-scroll" data-i18n="contacts">Контакты</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info animate-on-scroll">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="contact-details">
+                        <h3 data-i18n="address">Адрес</h3>
+                        <p data-i18n="address_text">World Wide Web</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div class="contact-details">
+                        <h3 data-i18n="phone">Телефон</h3>
+                        <p><a href="tel:+995557711543" data-i18n="phone_number">+995 557 71 15 43</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-details">
+                        <h3 data-i18n="email">Email</h3>
+                        <p><a href="mailto:glebkoxan36@gmail.com">glebkoxan36@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-comments"></i></div>
+                    <div class="contact-details">
+                        <h3 data-i18n="social">Социальные сети</h3>
+                        <div class="social-links">
+                            <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" title="Viber"><i class="fab fa-viber"></i></a>
+                            <a href="#" title="Telegram"><i class="fab fa-telegram"></i></a>
+                            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form animate-on-scroll">
+                <form id="contactForm" itemscope itemtype="https://schema.org/ContactPage">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required data-i18n-placeholder="name_placeholder" itemprop="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш Email" required data-i18n-placeholder="email_placeholder" itemprop="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Тема" data-i18n-placeholder="subject_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Ваше сообщение" rows="5" required data-i18n-placeholder="message_placeholder" itemprop="description"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button" data-i18n="send_message">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">FREELANCEGEO</div>
+            <div class="copyright" data-i18n="copyright">© 2025 создатель Глеб Кохан</div>
+            <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-bg",{particles:{number:{value:80,density:{enable:true,value_area:800}},color:{value:"#a29bfe"},shape:{type:"circle",stroke:{width:0,color:"#000000"}},opacity:{value:0.5,random:true,anim:{enable:true,speed:1,opacity_min:0.1,sync:false}},size:{value:3,random:true,anim:{enable:true,speed:2,size_min:0.1,sync:false}},line_linked:{enable:true,distance:150,color:"#6c5ce7",opacity:0.4,width:1},move:{enable:true,speed:1,direction:"none",random:true,straight:false,out_mode:"out",bounce:false,attract:{enable:false,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:true,mode:"grab"},onclick:{enable:true,mode:"push"},resize:true},modes:{grab:{distance:140,line_linked:{opacity:1}},push:{particles_nb:4}}},retina_detect:true});
+        
+        const translations={
+            ru:{
+                services:"Услуги",
+                portfolio:"Портфолио",
+                about:"О нас",
+                contact:"Контакты",
+                hero_title:"Профессиональные ",
+                hero_subtitle:"Разработка, дизайн, тексты и переводы - всё в одном месте для вашего успеха",
+                our_services:"Наши услуги",
+                contact_us:"Связаться с нами",
+                programming:"Программирование",
+                service1:"Создание сайтов-визиток",
+                service2:"Одностраничные сайты (Landing Page)",
+                service3:"Оптимизация кода",
+                service4:"Создание роадмапов для сайтов",
+                service5:"Веб-приложения",
+                service6:"Техническая поддержка",
+                writing:"Написание текстов",
+                service7:"Копираიტинг",
+                service8:"Рерайтинг",
+                service9:"SEO оптимизация",
+                service10:"Статьи и посты для блогов",
+                service11:"Технические тексты",
+                service12:"Сценарии и сторителлинг",
+                photo_services:"Фото услуги",
+                service13:"Реставрация старых фото",
+                service14:"Черно-белое фото в цвет",
+                service15:"Создание баннеров",
+                service16:"Дизайн логотипов",
+                service17:"Ретушь и коррекция",
+                service18:"Коллажи и композиции",
+                translations:"Переводы текстов",
+                service19:"Английский ↔ Русский",
+                service20:"Английский ↔ Грузинский",
+                service21:"Русский ↔ Грузинский",
+                service22:"Технические переводы",
+                service23:"Литературные переводы",
+                service24:"Редактура и корректура",
+                before:"ДО",
+                after:"ПОСЛЕ",
+                about_us:"О Нас",
+                digital_solutions:"Мы создаем цифровые решения",
+                about_text1:"Наша команда фрилансеров объединяет профессионалов в различных областях: разработчиков, дизайнеров, копирайтеров и переводчиков. Мы работаем вместе, чтобы предоставить нашим клиентам комплексные услуги высшего качества.",
+                about_text2:"С 2018 года мы реализовали более 200 проектов для клиентов из 15 стран. Наш подход основан на глубоком понимании потребностей клиента и создании индивидуальных решений, которые помогают достигать бизнес-целей.",
+                about_text3:"Мы постоянно совершенствуем свои навыки, следим за трендами и используем современные технологии в работе. Наша цель - не просто выполнить задачу, а создать продукт, который будет приносить пользу долгие годы.",
+                contacts:"Контакты",
+                address:"Адрес",
+                address_text:"World Wide Web",
+                phone:"Телефон",
+                phone_number:"+995 557 71 15 43",
+                email:"Email",
+                social:"Социальные сети",
+                name_placeholder:"Ваше имя",
+                email_placeholder:"Ваш Email",
+                subject_placeholder:"Тема",
+                message_placeholder:"Ваше сообщение",
+                send_message:"Отправить сообщение",
+                copyright:"© 2025 создатель Глеб Кохан",
+                project1:"Корпоративный сайт",
+                project2:"Фирменный стиль",
+                project3:"Реставрация фото",
+                project4:"Мобильное приложение",
+                project5:"Контент-маркетинг",
+                project6:"Технический перевод",
+                category1:"Веб-разработка",
+                category2:"Дизайн",
+                category3:"Фото услуги",
+                category4:"UI/UX Дизайн",
+                category5:"Копирайтинг",
+                category6:"Локализация"
+            },
+            en:{
+                services:"Services",
+                portfolio:"Portfolio",
+                about:"About Us",
+                contact:"Contact",
+                hero_title:"Professional ",
+                hero_subtitle:"Development, design, texts and translations - all in one place for your success",
+                our_services:"Our Services",
+                contact_us:"Contact Us",
+                programming:"Programming",
+                service1:"Business card websites",
+                service2:"Landing pages",
+                service3:"Code optimization",
+                service4:"Website roadmaps",
+                service5:"Web applications",
+                service6:"Technical support",
+                writing:"Content Writing",
+                service7:"Copywriting",
+                service8:"Rewriting",
+                service9:"SEO optimization",
+                service10:"Blog articles and posts",
+                service11:"Technical texts",
+                service12:"Scripts and storytelling",
+                photo_services:"Photo Services",
+                service13:"Old photo restoration",
+                service14:"Colorization of B&W photos",
+                service15:"Banner creation",
+                service16:"Logo design",
+                service17:"Retouching and correction",
+                service18:"Collages and compositions",
+                translations:"Text Translations",
+                service19:"English ↔ Russian",
+                service20:"English ↔ Georgian",
+                service21:"Russian ↔ Georgian",
+                service22:"Technical translations",
+                service23:"Literary translations",
+                service24:"Editing and proofreading",
+                before:"BEFORE",
+                after:"AFTER",
+                about_us:"About Us",
+                digital_solutions:"We create digital solutions",
+                about_text1:"Our team of freelancers brings together professionals in various fields: developers, designers, copywriters, and translators. We work together to provide our clients with comprehensive top-quality services.",
+                about_text2:"Since 2018, we have completed over 200 projects for clients from 15 countries. Our approach is based on a deep understanding of client needs and creating customized solutions that help achieve business goals.",
+                about_text3:"We constantly improve our skills, follow trends, and use modern technologies in our work. Our goal is not just to complete a task, but to create a product that will be beneficial for years to come.",
+                contacts:"Contacts",
+                address:"Address",
+                address_text:"World Wide Web",
+                phone:"Phone",
+                phone_number:"+995 557 71 15 43",
+                email:"Email",
+                social:"Social Networks",
+                name_placeholder:"Your Name",
+                email_placeholder:"Your Email",
+                subject_placeholder:"Subject",
+                message_placeholder:"Your Message",
+                send_message:"Send Message",
+                copyright:"© 2025 creator Gleb Kokhan",
+                project1:"Corporate Website",
+                project2:"Brand Identity",
+                project3:"Photo Restoration",
+                project4:"Mobile Application",
+                project5:"Content Marketing",
+                project6:"Technical Translation",
+                category1:"Web Development",
+                category2:"Design",
+                category3:"Photo Services",
+                category4:"UI/UX Design",
+                category5:"Copywriting",
+                category6:"Localization"
+            },
+            ge:{
+                services:"სერვისები",
+                portfolio:"პორტფოლიო",
+                about:"ჩვენ შესახებ",
+                contact:"კონტაქტი",
+                hero_title:"პროფესიონალური ",
+                hero_subtitle:"განვითარება, დიზაინი, ტექსტები და თარგმანები - ყველაფერი ერთ ადგილას თქვენი წარმატებისთვის",
+                our_services:"ჩვენი სერვისები",
+                contact_us:"დაგვიკავშირდით",
+                programming:"პროგრამირება",
+                service1:"ვიზიტების ბარათების საიტები",
+                service2:"Landing გვერდები",
+                service3:"კოდის ოპტიმიზაცია",
+                service4:"საიტების გეზი",
+                service5:"ვებ აპლიკაციები",
+                service6:"ტექნიკური მხარდაჭერა",
+                writing:"ტექსტების წერა",
+                service7:"კოპირაიტინგი",
+                service8:"რერაიტინგი",
+                service9:"SEO ოპტიმიზაცია",
+                service10:"ბლოგის სტატიები და პოსტები",
+                service11:"ტექნიკური ტექსტები",
+                service12:"სცენარები და ისტორიების მოყოლა",
+                photo_services:"ფოტო სერვისები",
+                service13:"ძველი ფოტოების რესტავრაცია",
+                service14:"შავ-თეთრი ფოტოების ფერადი გახადვა",
+                service15:"ბანერების შექმნა",
+                service16:"ლოგოების დიზაინი",
+                service17:"რეტუშირება და კორექტირება",
+                service18:"კოლაჟები და კომპოზიციები",
+                translations:"ტექსტების თარგმანი",
+                service19:"ინგლისური ↔ რუსული",
+                service20:"ინგლისური ↔ ქართული",
+                service21:"რუსული ↔ ქართული",
+                service22:"ტექნიკური თარგმანები",
+                service23:"ლიტერატურული თარგმანები",
+                service24:"რედაქტირება და კორექტირება",
+                before:"ადრე",
+                after:"ამის შემდეგ",
+                about_us:"ჩვენ შესახებ",
+                digital_solutions:"ჩვენ ვქმნით ციფრულ გადაწყვეტილებებს",
+                about_text1:"ჩვენი ფრილანსერების გუნდი აერთიანებს პროფესიონალებს სხვადასხვა სფეროში: დეველოპერები, დიზაინერები, კოპირაიტერები და თარჯიმნები. ჩვენ ერთად ვმუშაობთ, რათა მივაწოდოთ ჩვენს კლიენტებს ყოვლისმომცველი უმაღლესი ხარისხის მომსახურება.",
+                about_text2:"2018 წლიდან ჩვენ განვახორციელეთ 200-ზე მეტი პროექტი 15 ქვეყნის კლიენტებისთვის. ჩვენი მიდგომა ეფუძნება კლიენტის მოთხოვნების ღრმა გაგებას და ინდივიდუალური გადაწყვეტილებების შექმნას, რაც ხელს უწყობს ბიზნეს მიზნების მიღწევას.",
+                about_text3:"ჩვენ მუდმივად ვაუმჯობესებთ ჩვენს უნარებს, ვადევნებთ თვალყურს ტრენდებს და ვიყენებთ თანამედროვე ტექნოლოგიებს ჩვენს მუშაობაში. ჩვენი მიზანია არა მხოლოდ ამოცანის შესრულება, არამედ პროდუქტის შექმნა, რომელიც წლების განმავლობაში სარგებელს მოგიტანთ.",
+                contacts:"კონტაქტები",
+                address:"მისამართი",
+                address_text:"World Wide Web",
+                phone:"ტელეფონი",
+                phone_number:"+995 557 71 15 43",
+                email:"ელ. ფოსტა",
+                social:"სოციალური ქსელები",
+                name_placeholder:"თქვენი სახელი",
+                email_placeholder:"თქვენი ელ. ფოსტა",
+                subject_placeholder:"თემა",
+                message_placeholder:"თქვენი შეტყობინება",
+                send_message:"შეტყობინების გაგზავნა",
+                copyright:"© 2025 შემქმნელი გლებ კოხანი",
+                project1:"კორპორატიული საიტი",
+                project2:"ბრენდის იდენტობა",
+                project3:"ფოტოს რესტავრაცია",
+                project4:"მობილური აპლიკაცია",
+                project5:"კონტენტ მარკეტინგი",
+                project6:"ტექნიკური თარგმანი",
+                category1:"ვებ დეველოპმენტი",
+                category2:"დიზაინი",
+                category3:"ფოტო სერვისები",
+                category4:"UI/UX დიზაინი",
+                category5:"კოპირაიტინგი",
+                category6:"ლოკალიზაცია"
+            }
+        };
+
+        function changeLanguage(lang){
+            localStorage.setItem('language',lang);
+            document.querySelectorAll('.lang-btn').forEach(btn=>{
+                btn.classList.toggle('active',btn.dataset.lang===lang);
+            });
+            document.querySelectorAll('[data-i18n]').forEach(el=>{
+                const key=el.dataset.i18n;
+                if(translations[lang][key]) el.textContent=translations[lang][key];
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
+                const key=el.dataset.i18nPlaceholder;
+                if(translations[lang][key]) el.placeholder=translations[lang][key];
+            });
+        }
+
+        const typewriterTexts=[
+            "фриланс услуги",
+            "веб разработка",
+            "дизайн",
+            "копирайтинг",
+            "переводы"
+        ];
+        
+        let currentTextIndex=0;
+        let charIndex=0;
+        let isDeleting=false;
+        let typewriterElement;
+        
+        function initTypewriter(){
+            typewriterElement=document.getElementById('typewriter');
+            if(!typewriterElement)return;
+            typewriterElement.textContent='';
+            currentTextIndex=0;
+            charIndex=0;
+            isDeleting=false;
+            type();
+        }
+        
+        function type(){
+            const currentText=typewriterTexts[currentTextIndex];
+            if(isDeleting){
+                typewriterElement.textContent=currentText.substring(0,charIndex-1);
+                charIndex--;
+            }else{
+                typewriterElement.textContent=currentText.substring(0,charIndex+1);
+                charIndex++;
+            }
+            let typeSpeed=100;
+            if(isDeleting)typeSpeed/=2;
+            if(!isDeleting&&charIndex===currentText.length){
+                typeSpeed=2000;
+                isDeleting=true;
+            }else if(isDeleting&&charIndex===0){
+                isDeleting=false;
+                currentTextIndex=(currentTextIndex+1)%typewriterTexts.length;
+                typeSpeed=500;
+            }
+            setTimeout(type,typeSpeed);
+        }
+
+        window.addEventListener('DOMContentLoaded',function(){
+            const savedLang=localStorage.getItem('language')||'ru';
+            changeLanguage(savedLang);
+            animateOnScroll();
+            document.querySelectorAll('.lang-btn').forEach(btn=>{
+                btn.addEventListener('click',function(){
+                    changeLanguage(this.dataset.lang);
+                });
+            });
+            let lastScrollTop=0;
+            const header=document.getElementById('header');
+            window.addEventListener('scroll',function(){
+                const scrollTop=window.pageYOffset||document.documentElement.scrollTop;
+                if(scrollTop>lastScrollTop&&scrollTop>100){
+                    header.classList.add('hidden');
+                }else{
+                    header.classList.remove('hidden');
+                }
+                lastScrollTop=scrollTop;
+                animateOnScroll();
+            });
+            
+            function animateOnScroll(){
+                document.querySelectorAll('.animate-on-scroll').forEach(element=>{
+                    const elementTop=element.getBoundingClientRect().top;
+                    if(elementTop<window.innerHeight-150){
+                        element.classList.add('visible');
+                    }
+                });
+            }
+            
+            const mobileMenuBtn=document.getElementById('mobileMenuBtn');
+            const nav=document.getElementById('nav');
+            mobileMenuBtn.addEventListener('click',function(){
+                nav.classList.toggle('active');
+                mobileMenuBtn.innerHTML=nav.classList.contains('active')?'<i class="fas fa-times"></i>':'<i class="fas fa-bars"></i>';
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+                anchor.addEventListener('click',function(e){
+                    e.preventDefault();
+                    const targetId=this.getAttribute('href');
+                    const targetElement=document.querySelector(targetId);
+                    if(targetElement){
+                        window.scrollTo({
+                            top:targetElement.offsetTop-80,
+                            behavior:'smooth'
+                        });
+                        if(nav.classList.contains('active')){
+                            nav.classList.remove('active');
+                            mobileMenuBtn.innerHTML='<i class="fas fa-bars"></i>';
+                        }
+                    }
+                });
+            });
+            initTypewriter();
+            (adsbygoogle=window.adsbygoogle||[]).push({});
+        });
+    </script>
+</body>
+</html>
